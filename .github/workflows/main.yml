@@ -8,7 +8,7 @@ on:
   push:
     branches: master
 env:
-  HOOK_URL: https://hooks.slack.com/services/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
+  HOOK_URL: ${{secrets.HOOK_URL}}
   REPO_NAME: githubactions-sample
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch: githubactions-sample
